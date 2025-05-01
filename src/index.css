@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wallet-container {
+    @apply max-w-md mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg;
+  }
+  .button {
+    @apply px-4 py-2 rounded text-white;
+  }
+  .deposit {
+    @apply bg-green-500;
+  }
+  .withdraw {
+    @apply bg-red-500;
+  }
